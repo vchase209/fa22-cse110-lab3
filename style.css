@@ -1,0 +1,26 @@
+#Title{
+    color:blue
+}
+.Ideas{
+    color:rgb(100,20,30)
+}
+strong, b{
+    color:#370
+}
+nav li{
+    color:hsla(100,20,30)
+}
+section > h2{
+    color: white;
+    background-color: rgb(0, 0, 0)
+}
+#Begin{
+    display:block;
+    margin-bottom: 1em;
+    padding-top:.5em;
+    border: 2px;
+    border-style: dotted;
+    border-color:pink;
+    border-width:10px;
+    border-radius:10px
+}
