@@ -1,3 +1,6 @@
+*{
+
+}
 #Title{
     color:blue
 }
@@ -48,22 +51,22 @@ div ~ h1{
 }
 #idea1{
     position: absolute;
-    left: 20px;
+    left: 500px;
     padding: 20px 20px 20px 20px
 }
 #idea2{
     position: absolute;
     margin: auto;
-    top: 50px
+    bottom: 50px
 }
 #idea3{
     position: absolute;
     margin: 10px 10px 10px 10px;
-    left: 50px
+    left: 600px
 }
 #idea4{
     position: absolute;
     left: 50px;
     text-decoration: underline dotted;
-    top: 50px
+    bottom: 100px
 }
