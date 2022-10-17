@@ -9,6 +9,9 @@
     color:rgb(100,20,30)
 }
 strong, b{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
     color:#370
 }
 nav li{
@@ -40,6 +43,9 @@ h2 + img:hover{
   box-shadow: 10px 5px 5px purple;
 
 }
+h2 + img:active{
+    border-radius: 50%;
+}
 div ~ h1{
     text-align: end
 }
@@ -59,7 +65,7 @@ div ~ h1{
 #idea2{
     position: absolute;
     margin: auto;
-    bottom: 50px
+    left: 800px
 }
 #idea3{
     position: absolute;
@@ -68,7 +74,6 @@ div ~ h1{
 }
 #idea4{
     position: absolute;
-    left: 50px;
+    left: 1050px;
     text-decoration: underline dotted;
-    bottom: 100px
 }
