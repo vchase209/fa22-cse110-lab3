@@ -45,15 +45,13 @@ h2 + img:hover{
   box-shadow: 10px 5px 5px purple;
 
 }
-
 div ~ h1{
     text-align: end
 }
 ol.Ideas{
-    display:inline;
     text-decoration: underline dotted
 }
 .Ideas{
-  background-color: aliceblue;
+    background-color: aliceblue;
 }
     
