@@ -1,10 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Silkscreen:wght@700&display=swap');
+@font-face{
+    font-family:'Roboto';
+    src:url(https://fonts.google.com/specimen/Roboto)
+}
+*{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Silkscreen', cursive;
+}
+.container{
+    display: flexbox;
+    flex-direction: column;
+    flex-flow: column-wrap
+}
+.item2{
+    flex-grow: 2
+}
+div.Ideas{
+    color:blueviolet
+}
+@media (width:1000px){
+    div{
+        color:blue;
+    }
+}
+.gridcontainer{
+    display:grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 10px
+}
 #Title{
     color:blue
 }
 .Ideas{
-    color:rgb(100,20,30)
+    color:rgb(100,20,30);
 }
 strong, b{
+    display: inline-block;
+    width: 100px;
+    max-width: 20px;
+    height: 20px;
+    max-height: 10px;
     color:#370
 }
 nav li{
@@ -15,7 +51,6 @@ section > h2{
     background-color: rgb(0, 0, 0)
 }
 #Begin{
-    display:block;
     margin-bottom: 1em;
     margin-left: 1em;
     margin-right: 1em;
@@ -30,32 +65,48 @@ section > h2{
     border-width:10px;
     border-radius:10px
 }
+span[style="color:biege"]{
+    display:block
+}
+
 footer{ 
-    position: relative;
-    right: 6 in;
-    width: 72 pt;
+    left:20px
 }
 h2 + img:hover{
-  box-shadow: 10px 5px 5px purple;
+    box-shadow: 10px 5px 5px purple;
 
 }
-/*
-{
-    margin: 0px 0px 10px 1px;
-    padding: 10px 10px 10px 10px;
-    position: absolute;
-    left: 6 in;
-    height: 30 vw;
-    max-width: 30 vw;
-    min-width: 20 vw
+h2 + img:active{
+    box-shadow: 10px 5px 5px orange;
 }
-*/
-
 div ~ h1{
     text-align: end
 }
-ol.Ideas{
-    display:inline;
-    text-decoration: underline dotted
+.Ideas{
+    background-color: aliceblue;
 }
-    
+#ideasCollection{
+    position: relative;
+    background-color: red;
+    padding: 1000px 1000px 1000px 1000px
+}
+#idea1{
+    position: absolute;
+    left: 500px;
+    padding: 20px 20px 20px 20px
+}
+#idea2{
+    position: absolute;
+    margin: auto;
+    left: 800px
+}
+#idea3{
+    position: absolute;
+    margin: 10px 10px 10px 10px;
+    left: 600px
+}
+#idea4{
+    position: absolute;
+    left: 1050px;
+    text-decoration: underline dotted;
+}
