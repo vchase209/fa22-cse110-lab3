@@ -3,7 +3,7 @@
     src:url(https://fonts.google.com/specimen/Roboto)
 }
 *{
-    font-family: "Roboto"
+    font-family: "Roboto", sans-serif;
 }
 .container{
     display: flexbox;
