@@ -6,7 +6,12 @@
     font-family: "Roboto"
 }
 .container{
-    display:flexbox
+    display: flexbox;
+    flex-direction: column;
+    flex-flow: column-wrap
+}
+.item2{
+    flex-grow: 2
 }
 #Title{
     color:blue
