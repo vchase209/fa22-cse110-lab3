@@ -5,14 +5,6 @@
     color:rgb(100,20,30)
 }
 strong, b{
-    display:inline-block;
-    margin: 0px 0px 10px 1px;
-    padding: 10px 10px 10px 10px;
-    position: absolute;
-    left: 6 in;
-    height: 30 vw;
-    max-width: 30 vw;
-    min-width: 20 vw;
     color:#370
 }
 nav li{
@@ -38,8 +30,7 @@ section > h2{
     border-radius:10px
 }
 footer{ 
-    display: inline;
-    position: relative;
+    left:20px
 }
 h2 + img:hover{
   box-shadow: 10px 5px 5px purple;
@@ -48,10 +39,31 @@ h2 + img:hover{
 div ~ h1{
     text-align: end
 }
-ol.Ideas{
-    text-decoration: underline dotted
-}
 .Ideas{
     background-color: aliceblue;
 }
-    
+#ideasCollection{
+    position: relative;
+    background-color: red;
+}
+#idea1{
+    position: absolute;
+    left: 20px;
+    padding: 20px 20px 20px 20px
+}
+#idea2{
+    position: absolute;
+    margin: auto;
+    top: 50px
+}
+#idea3{
+    position: absolute;
+    margin: 10px 10px 10px 10px;
+    left: 50px
+}
+#idea4{
+    position: absolute;
+    left: 50px;
+    text-decoration: underline dotted;
+    top: 50px
+}
