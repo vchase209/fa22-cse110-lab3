@@ -2,6 +2,9 @@
     font-family:'Roboto';
     src:url(https://fonts.google.com/specimen/Roboto)
 }
+*{
+    font-family: "Roboto"
+}
 #Title{
     color:blue
 }
