@@ -5,6 +5,14 @@
     color:rgb(100,20,30)
 }
 strong, b{
+    display:inline-block;
+    margin: 0px 0px 10px 1px;
+    padding: 10px 10px 10px 10px;
+    position: absolute;
+    left: 6 in;
+    height: 30 vw;
+    max-width: 30 vw;
+    min-width: 20 vw;
     color:#370
 }
 nav li{
@@ -15,7 +23,6 @@ section > h2{
     background-color: rgb(0, 0, 0)
 }
 #Begin{
-    display:block;
     margin-bottom: 1em;
     margin-left: 1em;
     margin-right: 1em;
@@ -38,17 +45,6 @@ h2 + img:hover{
   box-shadow: 10px 5px 5px purple;
 
 }
-/*
-{
-    margin: 0px 0px 10px 1px;
-    padding: 10px 10px 10px 10px;
-    position: absolute;
-    left: 6 in;
-    height: 30 vw;
-    max-width: 30 vw;
-    min-width: 20 vw
-}
-*/
 
 div ~ h1{
     text-align: end
