@@ -54,7 +54,7 @@ h2 + img:hover{
 div ~ h1{
     text-align: end
 }
-b.Ideas{
+p.Ideas{
     display:inline
 }
     
