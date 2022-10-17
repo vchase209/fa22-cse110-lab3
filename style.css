@@ -1,8 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Silkscreen:wght@700&display=swap');
-@font-face{
-    font-family:'Roboto';
-    src:url(https://fonts.google.com/specimen/Roboto)
-}
 *{
     font-family: 'Roboto', sans-serif;
     font-family: 'Silkscreen', cursive;
@@ -103,7 +99,8 @@ div ~ h1{
 #idea3{
     position: absolute;
     margin: 10px 10px 10px 10px;
-    left: 600px
+    left: 700px;
+    bottom: 50px;
 }
 #idea4{
     position: absolute;
