@@ -13,6 +13,12 @@
 .item2{
     flex-grow: 2
 }
+.gridcontainer{
+    display:grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 10px
+}
 #Title{
     color:blue
 }
@@ -23,7 +29,7 @@ strong, b{
     display: inline-block;
     background-color: blue;
     width: 100px;
-    height: 100px;
+    height: 20px;
     color:#370
 }
 nav li{
