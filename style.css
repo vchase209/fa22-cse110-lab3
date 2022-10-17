@@ -31,6 +31,7 @@ section > h2{
     border-radius:10px
 }
 footer{ 
+    display:inline;
     position: relative;
     right: 6 in;
     width: 72 pt;
