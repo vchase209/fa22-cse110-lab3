@@ -54,7 +54,8 @@ h2 + img:hover{
 div ~ h1{
     text-align: end
 }
-p.Ideas{
-    display:inline
+ol.Ideas{
+    display:inline;
+    text-decoration: underline dotted
 }
     
