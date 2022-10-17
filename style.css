@@ -35,8 +35,9 @@ footer{
     right: 6 in;
     width: 72 pt;
 }
-h2 + img{
-  border-radius: 50%
+h2 + img:hover{
+  box-shadow: 10px 5px 5px purple;
+
 }
 /*
 {
@@ -53,7 +54,7 @@ h2 + img{
 div ~ h1{
     text-align: end
 }
-content.Ideas{
+b.Ideas{
     display:inline
 }
     
