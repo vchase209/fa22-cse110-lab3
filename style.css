@@ -47,11 +47,11 @@ footer{
     left:20px
 }
 h2 + img:hover{
-  box-shadow: 10px 5px 5px purple;
+    box-shadow: 10px 5px 5px purple;
 
 }
 h2 + img:active{
-    border-radius: 50%;
+    box-shadow: 10px 5px 5px orange;
 }
 div ~ h1{
     text-align: end
