@@ -31,7 +31,7 @@ section > h2{
     border-radius:10px
 }
 footer{ 
-    display:inline;
+    display: inline;
     position: relative;
 }
 h2 + img:hover{
@@ -56,5 +56,8 @@ div ~ h1{
 ol.Ideas{
     display:inline;
     text-decoration: underline dotted
+}
+.Ideas{
+  background-color: aliceblue;
 }
     
