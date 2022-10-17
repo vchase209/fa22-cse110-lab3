@@ -35,7 +35,11 @@ footer{
     left: 6 in;
     width: 72 pt;
 }
-work{
+h2 + img{
+  border-radius: 50%
+}
+/*
+{
     margin: 0px 0px 10px 1px;
     padding: 10px 10px 10px 10px;
     position: absolute;
@@ -44,6 +48,8 @@ work{
     max-width: 30 vw;
     min-width: 20 vw
 }
+*/
+
 div ~ h1{
     text-align: end
 }
