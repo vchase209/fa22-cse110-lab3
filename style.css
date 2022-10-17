@@ -32,7 +32,7 @@ section > h2{
 }
 footer{ 
     position: relative;
-    left: 6 in;
+    right: 6 in;
     width: 72 pt;
 }
 h2 + img{
@@ -52,5 +52,8 @@ h2 + img{
 
 div ~ h1{
     text-align: end
+}
+content.Ideas{
+    display:inline
 }
     
