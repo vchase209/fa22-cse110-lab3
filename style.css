@@ -1,5 +1,6 @@
-*{
-
+@font-face{
+    font-family:'Roboto';
+    src:url(https://fonts.google.com/specimen/Roboto)
 }
 #Title{
     color:blue
@@ -48,6 +49,7 @@ div ~ h1{
 #ideasCollection{
     position: relative;
     background-color: red;
+    padding: 1000px 1000px 1000px 1000px
 }
 #idea1{
     position: absolute;
