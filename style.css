@@ -13,6 +13,14 @@
 .item2{
     flex-grow: 2
 }
+div.Ideas{
+    color:blueviolet
+}
+@media (width:1000px){
+    div{
+        color:blue;
+    }
+}
 .gridcontainer{
     display:grid;
     grid-template-rows: 100px 100px 100px;
@@ -23,13 +31,15 @@
     color:blue
 }
 .Ideas{
-    color:rgb(100,20,30)
+    color:rgb(100,20,30);
 }
 strong, b{
     display: inline-block;
     background-color: blue;
     width: 100px;
+    max-width: 50px;
     height: 20px;
+    max-height: 10px;
     color:#370
 }
 nav li{
@@ -54,6 +64,10 @@ section > h2{
     border-width:10px;
     border-radius:10px
 }
+span[style="color:biege"]{
+    display:block
+}
+
 footer{ 
     left:20px
 }
