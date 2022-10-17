@@ -5,6 +5,9 @@
 *{
     font-family: "Roboto"
 }
+.container{
+    display:flexbox
+}
 #Title{
     color:blue
 }
@@ -13,6 +16,7 @@
 }
 strong, b{
     display: inline-block;
+    background-color: blue;
     width: 100px;
     height: 100px;
     color:#370
